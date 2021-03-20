@@ -9,3 +9,5 @@ _Nanoseconds convertor_
 _seconds convertor_
 
 _temperature convertor_
+
+_replace an array with different values in a list_
