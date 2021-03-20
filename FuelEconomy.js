@@ -8,7 +8,7 @@ const litrePer100KM = 100;
 
 function kPL2MPG(kpl) {
   let mpg = kpl * divisible2FuelEconomy;
-  return mpg;
+  return mpg.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 // kilometer Per Liter to Miles Per Gallon (Imperial)
@@ -17,7 +17,7 @@ function kPL2MPG(kpl) {
 function kPL2MPGI(kpl) {
   let divisibleImperial = divisible2FuelEconomy + 473;
   let mpgi = kpl * divisibleImperial;
-  return mpgi;
+  return mpgi.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 // kilometer Per Liter to liter per 100 kilometer
@@ -25,7 +25,7 @@ function kPL2MPGI(kpl) {
 function kPL2L100(kpl) {
   let l100 = litrePer100KM;
   let kmbyL = l100 / kpl;
-  return kmbyL;
+  return kmbyL.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 print(kPL2MPG(20));

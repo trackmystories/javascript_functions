@@ -4,7 +4,7 @@
 let log = console.log;
 
 function addComma(number) {
-  return number.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+  return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 log(addComma(1000.1));
@@ -18,7 +18,7 @@ log(addComma(10000000000.8));
 log(addComma(100000000000.9));
 
 function addDollar(number) {
-  return "$" + number.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+  return "$" + number.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, "$1,");
 }
 
 log(addDollar(1000.1));
@@ -32,7 +32,7 @@ log(addDollar(10000000000.8));
 log(addDollar(100000000000.9));
 
 function addEuroWithDot(number) {
-  return "€" + number.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1.");
+  return "€" + number.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, "$1.");
 }
 
 log(addEuroWithDot(1000.1));
@@ -46,7 +46,7 @@ log(addEuroWithDot(10000000000.8));
 log(addEuroWithDot(100000000000.9));
 
 function addSterling(number) {
-  return "£" + number.toFixed(2).replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
+  return "£" + number.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, "$1,");
 }
 
 log(addSterling(1000.1));

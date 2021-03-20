@@ -4,57 +4,57 @@ let print = console.log;
 
 function NanosecondToMicrosecond(n) {
   let m = n / 1000;
-  return m;
+  return m.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToMillisecond(n) {
   let ml = n / 1e6;
-  return ml;
+  return ml.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToSecond(n) {
   let s = n / 1e9;
-  return s;
+  return s.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToMinute(n) {
   let m = n / 6e10;
-  return m;
+  return m.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToHour(s) {
   let h = s / 36e12;
-  return h;
+  return h.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToDay(s) {
   let d = s / 864e13;
-  return d;
+  return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToWeek(s) {
   let w = s / 6048e14;
-  return w;
+  return w.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToMonth(s) {
   let m = s / 2628e15;
-  return m;
+  return m.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToCalenderYear(s) {
   let c = s / 3154e16;
-  return c;
+  return c.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToDecade(s) {
   let d = s / 3154e17;
-  return d;
+  return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function NanosecondToCentury(s) {
   let d = s / 3154e18;
-  return d;
+  return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 // Nanoseconds
