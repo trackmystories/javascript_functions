@@ -1,11 +1,11 @@
 # javascript_functions
 
-# currency formatter
+_currency formatter_
 
-# Fuel economy by litre calculator
+_Fuel economy by litre calculator_
 
-# Nanoseconds convertor
+_Nanoseconds convertor_
 
-# seconds convertor
+_seconds convertor_
 
-# temperature convertor
+_temperature convertor_
