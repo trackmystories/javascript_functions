@@ -1,4 +1,3 @@
-// currency convertor
 // temperature convertor
 
 let print = console.log;

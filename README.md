@@ -10,4 +10,6 @@ _seconds convertor_
 
 _temperature convertor_
 
-_replace an array with different values in a list_
+_list Parameters_
+
+_data Filter_
