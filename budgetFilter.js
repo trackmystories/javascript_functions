@@ -18,5 +18,4 @@ function filterByPriceLessThan(b) {
   return filteredData;
 }
 
-// display all items with with in the following budget.
 print(filterByPriceLessThan(5));

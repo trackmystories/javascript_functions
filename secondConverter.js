@@ -1,8 +1,11 @@
-// time calculator
+/**
+ * time calculator
+ * seconds to value converter
+ * @param {number} s is second input.
+ * @return {number} the converted value inserted with a comma.
+ */
 
 let print = console.log;
-
-//seconds to :
 
 function secondToNanosecond(s) {
   let n = s * 1e9;
@@ -59,7 +62,6 @@ function secondToCentury(s) {
   return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-// seconds
 print(secondToNanosecond(1));
 print(secondToMicrosecond(1));
 print(secondToMillisecond(1));

@@ -1,6 +1,11 @@
-let print = console.log;
+/**
+ * time calculator
+ * Nanoseconds to value converter
+ * @param {number} n is nanosecond input.
+ * @return {number} the equation of convertion inserted with a comma.
+ */
 
-// Nanoseconds to :
+let print = console.log;
 
 function NanosecondToMicrosecond(n) {
   let m = n / 1000;
@@ -56,8 +61,6 @@ function NanosecondToCentury(s) {
   let d = s / 3154e18;
   return d.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-
-// Nanoseconds
 
 print(NanosecondToMicrosecond(1));
 print(NanosecondToMillisecond(1));

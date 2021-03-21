@@ -1,6 +1,6 @@
 # javascript_functions
 
-_currency formatter_
+_comma Insertion_
 
 _Fuel economy by litre calculator_
 

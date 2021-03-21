@@ -1,4 +1,11 @@
-// temperature convertor
+/**
+ * temperature convertor
+ * @params {Number} f : fahreheit
+ * @params {Number} c : celsius
+ * @params {Number} c : celsius
+ * @return {Number} the equation of celcius, fahrenheit, kalvin
+
+*/
 
 let print = console.log;
 

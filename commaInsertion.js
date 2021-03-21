@@ -1,5 +1,4 @@
-// replace(), toString(), toFixed()
-// String.prototype.replace()
+// currencyFormatter
 
 let log = console.log;
 
