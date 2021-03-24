@@ -1,4 +1,4 @@
-// score ranking for fruits per tree if the number of fruit equal a certain threshold
+// score comparison for two farms producing fruits per tree
 
 // Farm one
 const farmNorth = [40, 50, 40, 60, 39, 80];
