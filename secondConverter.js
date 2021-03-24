@@ -1,8 +1,8 @@
 /**
- * time calculator
  * seconds to value converter
- * @param {number} s is second input.
- * @return {number} the converted value inserted with a comma.
+ * @params  {number} : s is second input.
+ * @return {number} : the converted value inserted with a comma.
+ 
  */
 
 let print = console.log;
