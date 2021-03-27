@@ -2,30 +2,30 @@
 
 ###### Calculators
 
-_Fuel economy by litre calculator_
+> Fuel economy by litre calculator
 
-_Nanoseconds convertor_
+> Nanoseconds convertor
 
-_seconds convertor_
+> seconds convertor
 
-_temperature convertor_
+> temperature convertor
 
 ###### filters
 
-_budget Filter_
+> budget Filter
 
 ###### searchAlgorithms
 
-_binary_search_algorithm_
+> binary_search_algorithm
 
-_binary_search_leftmost_
+> binary_search_leftmost
 
 ###### Solutions
 
-_Farm Produce Ranker_
+> Farm Produce Ranker
 
 ###### Simple utilities
 
 > comma Insertion
 
-_list Parameters_
+> list Parameters
