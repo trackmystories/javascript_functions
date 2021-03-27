@@ -69,4 +69,4 @@ function compare(a, b) {
   return comparison;
 }
 
-print(compare(farmOne, farmTwo)); // farm two has scored higher than farm one.
+print(compare(farmOne, farmTwo)); // [ 0, 1 ]
