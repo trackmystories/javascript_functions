@@ -1,4 +1,19 @@
-// score comparison for two farms producing fruits per tree
+/**
+ * score comparison for two farms producing fruits per tree in different localities
+ * @params  {object} = data include 8 sets of arrays farm one & farm two.
+ * @params  {object} = sorted data = [A[0], A[1], A[2], A[3], A[4], A[5]]
+ * @params  {object} = comparison between 2 farms each with 4 sets of arrays
+ * @params  {object} = direction relative to the geographic cardinal directions
+ * @params  {object} = input value object
+
+ * @params  {object} = function one: sum all fruits per location
+ * @params  {object} = return new Array in geographic cardinal directions
+ * @params  {return} = print a unified array for each farm by cardinal directions
+
+ * @params  {object} = create a score board for comparison display [0, 0]
+ * @params  {object} = score 1 for the farm with the highest produce and 0 for the lowest.
+ * @return  {object} = return score
+ */
 
 // Farm one
 const farmNorth = [40, 50, 40, 60, 39, 80];
@@ -6,7 +21,7 @@ const farmSouth = [60, 29, 39, 20, 39, 30];
 const farmEast = [20, 38, 79, 40, 59, 59];
 const farmWest = [84, 29, 39, 80, 09, 88];
 
-// Farn two
+// Farm two
 const northFarm = [50, 60, 70, 80, 29, 80];
 const southFarm = [50, 49, 69, 20, 79, 90];
 const eastFarm = [20, 88, 89, 90, 99, 29];
@@ -54,6 +69,4 @@ function compare(a, b) {
   return comparison;
 }
 
-// the rank shows that farmTwo scores higher the farmOne in total produce.
-
-print(compare(farmOne, farmTwo));
+print(compare(farmOne, farmTwo)); // farm two has scored higher than farm one.

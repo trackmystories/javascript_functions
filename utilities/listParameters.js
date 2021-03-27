@@ -1,4 +1,16 @@
-// replace an array with different values in a list
+/**
+ * replace an array with different values in a list
+
+ * @params  {object} = value is data
+
+ * function one replaceItems()
+ * @params  {string} = map through data and replacing each alphabet with a that sums up to a sentence.
+ * @return  {object} = return new array
+
+ * function one ifValueIsTrue()
+ * @params  {number} = js conditional
+ * @return  {string} = returns truthy values if condition is equal to input
+ */
 
 let print = console.log;
 const value = [

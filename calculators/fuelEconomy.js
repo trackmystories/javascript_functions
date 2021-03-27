@@ -1,4 +1,9 @@
-// fuel economy per liter
+/**
+ *  fuel economy per liter
+ * @params  {number} = kilometer per liter
+ * @params  {number} = formula for an approximate result, multiply the fuel economy value by 2.352
+ * @return  {string} = print a string formated using regex
+ */
 
 let print = console.log;
 const divisible2FuelEconomy = 2352;

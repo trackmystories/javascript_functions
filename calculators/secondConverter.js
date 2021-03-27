@@ -1,8 +1,8 @@
 /**
- * seconds to value converter
- * @params  {number} : s is second input.
- * @return {number} : the converted value inserted with a comma.
-
+ *  second to value calculator
+ * @params  {number} = input second/s
+ * @params  {number} = formula divide the time value by relavance
+ * @return  {string} = print a string formated using regex
  */
 
 let print = console.log;

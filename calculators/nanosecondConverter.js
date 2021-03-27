@@ -1,8 +1,8 @@
 /**
- * time calculator
- * Nanoseconds to value converter
- * @param {number} n is nanosecond input.
- * @return {number} the equation of convertion inserted with a comma.
+ * NanoSecond convertor
+ * @params  {number} = input NanoSecond
+ * @params  {number} = formula for an approximate result, divide the time value by relavance
+ * @return  {string} = return a string formated using regex
  */
 
 let print = console.log;

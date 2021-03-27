@@ -1,4 +1,10 @@
-// Budget filter.
+/**
+ *  Simple budget Budget filter.
+ * @params  {object} = data array of key value pairs price for price, fr for fruits
+ * @params  {number} = input b for budget
+ * @params  {number} = filter items if item to price is less than or equal to input
+ * @return  {string} = return items within the specific price range
+ */
 
 let print = console.log;
 
