@@ -49,7 +49,7 @@ console.log(binary_search_algorithm(arrayOfStrings, "B")); // Success
  * binary_search_rightmost O(log n) comparisons
 
  * @params  {number} = set L to 0 & R to n - 1.
- * @params  {number} = If L > R, the search terminates as unsuccessful.
+ * @params  {number} = If L < R, the search terminates as unsuccessful.
  * @params  {number} = Set m (the position of the middle element) to the floor of (L + (R - L) / 2);
  * @params  {number} = which is the greatest integer less than or equal to  (L + (R - L) / 2);
  * @params  {number} = if A[m] < T, set binary_search_algorithm  m + 1 and go to step 2.
@@ -64,7 +64,7 @@ function binary_search_leftmost(A, T, L = 0, R = A.length) {
     for (let i = 0; i <= R; i++) {
       if (A[m] < T) {
         return binary_search_leftmost(A, T, L, m + 1);
-      } else if (A[m] > T) {
+      } else if (A[m] >= T) {
         return binary_search_leftmost(A, T, m, R);
       }
     }
