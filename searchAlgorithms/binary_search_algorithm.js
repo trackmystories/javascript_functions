@@ -46,7 +46,7 @@ console.log(binary_search_algorithm(arrayOfStrings, "B")); // Success
 // Procedure for finding the rightmost element
 
 /**
- * binary_search_rightmost O(log n) comparisons
+ * binary_search_leftmost O(log n) comparisons
 
  * @params  {number} = set L to 0 & R to n - 1.
  * @params  {number} = If L < R, the search terminates as unsuccessful.
